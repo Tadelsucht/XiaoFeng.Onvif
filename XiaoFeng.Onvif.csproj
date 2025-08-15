@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
+		<TargetFrameworks>net8.0</TargetFrameworks>
 		<Title>XiaoFeng.Onvif</Title>
 		<Authors>cc</Authors>
 		<Description>XiaoFeng.Onvif基于.NET平台使用C#封装Onvif常用接口、设备、媒体、云台等功能，拒绝WCF服务引用动态代理生成wsdl类文件 ，使用原生XML扩展标记语言封装参数，所有的数据流向都可控</Description>
@@ -28,7 +28,7 @@
 		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="XiaoFeng" Version="3.0.10" />
+		<PackageReference Include="XiaoFeng" Version="5.2.10" />
 	</ItemGroup>
 
 	<ItemGroup>
