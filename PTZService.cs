@@ -36,7 +36,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
@@ -57,7 +57,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
@@ -86,7 +86,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
@@ -117,7 +117,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
@@ -144,7 +144,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
@@ -166,7 +166,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
@@ -192,7 +192,7 @@ namespace XiaoFeng.Onvif
             }
             else
             {
-                /*请求失败*/
+                return new List<string>{"请求失败"};
             }
             return default;
         }
